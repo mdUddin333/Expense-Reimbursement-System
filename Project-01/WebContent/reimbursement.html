@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Reimbursement</title>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+
+<style>
+
+    body{
+    background-color: gray;
+    }
+	.wrapper{
+			
+		width: 40%;
+		border: 1px solid green;
+		margin: 0 auto;
+		padding: 20px;
+		color: blue;	
+		background-color: aqua;
+	
+	}
+	a{
+	color: black;
+	
+	}
+
+</style>
+
+</head>
+<body>
+	<h1>Reimbursement page</h1>
+	
+	<form action="reimbursementReq" method="post">
+	
+	<div class="wrapper">
+		<div class="container">
+		
+			<div>
+				<p>Employee Id: 	<input type="number" name="id" placeholder="Enter Your id" /> </p>
+		
+			</div>
+			
+			<div>
+				<p>Amount: 	 <input type="number" name="amount" placeholder="Enter Your amount" /> </p>
+		
+			</div>
+			
+			<div>
+				<p>Reimbursement date: <input type="date" name="submitDate" placeholder="Enter the date" /> </p>
+		
+			</div>
+			
+			<div>
+			
+			Reimbursement Type:
+			
+				<select name="type1">
+				
+					<option value="Select-Reimbursement-Type">Select-Reimbursement-Type</option>
+					<option value="LODGING">LODGING</option>
+					<option value="TRAVEL">TRAVEL</option>
+					<option value="FOOD">FOOD</option>
+					<option value="OTHER">OTHER</option>
+				</select>
+			</div>
+			
+			<div>
+				
+			Reimbursement Status:
+				
+				<select name="status1">
+				
+					<option value="Select-Reimbursement-Status">Select-Reimbursement-Status</option>
+					<option value="REQUEST">REQUEST</option>
+					
+				</select>
+			 
+		
+			</div>
+		
+		<input type="submit" value="Submit"/>
+		</div>
+		<a href="reimbursement.html">New Requst</a>
+	</div>
+	
+	</form>
+
+
+</body>
+</html>

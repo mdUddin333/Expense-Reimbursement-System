@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Change Reimbursement Status</title>
+</head>
+<body style="background-color: orange;">
+
+<form action="changeStatus" method="post">
+
+	<div>
+	
+			<p>Reimbursement Id: <input type="number" name="ReimbursementId" placeholder="Reimbursement Id"/></p>
+	
+	</div>
+
+	<div>
+					
+				Change Reimbursement Status:
+					
+					<select name="changeStatus">
+					
+						<option value="Select-Reimbursement-Status">Select-Reimbursement-Status</option>
+						<option value="APPROVED">APPROVED</option>
+						<option value="REJECTED">REJECTED</option>
+						<option value="PENDING">PENDING</option>
+					</select>
+					
+					
+		
+				</div>
+				
+			<input type="submit" value="Submit"/>
+	</form>			
+</body>
+</html>
