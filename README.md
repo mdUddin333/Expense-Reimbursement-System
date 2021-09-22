@@ -13,12 +13,11 @@ Employee Reimbursement Ticket that allows users to register & login as an employ
 * Finance managers can view all employee ticket requests
 
 ### Work in progess
-* Testing the Hibernate connections with a mock database
-* Allowing finance managers to delete or edit employee ticket requests
-* Allowing finance managers to filter the list of tickets based on the type of reimbursement
+* Allowing admin to delete or edit employee ticket requests
+* Allowing admin to filter the list of tickets based on the type of reimbursement
 
 # Getting Started
-https://github.com/DavidKosalRevature/Revature-Project-1.git
+https://github.com/mdUddin333/Expense-Reimbursement-System.git
 
 # Usage
 * Run the program in a Java IDE that supports servlets or enterprise features
